@@ -36,9 +36,10 @@ body {
     margin-left: 15%;
     width: 53%;
     padding-left: 0;
-    padding-top: 100px;
+    padding-top: 50px;
 
 }
+
 
 .hero-content {
   color: white;
@@ -67,6 +68,11 @@ body {
 
 .repo-section {
   min-height: 400px;
+  padding-top: 100px;
+}
+
+.repo-inner {
+  padding-top: 10px;
 }
 
 .repo-text {
