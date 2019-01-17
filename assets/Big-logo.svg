@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="198px" height="126px" viewBox="0 0 198 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Big-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="29.5 8 55 22.54289 55 51.62867 29.5 66.17156 4 51.62867 4 22.54289"></polygon>
+        <filter x="-14.7%" y="-9.5%" width="129.4%" height="125.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-29.2%" y="-14.3%" width="158.3%" height="146.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-41.7%" y="-17.9%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-5" points="0.178666667 7.01333333 0.178666667 20.5626667 11.912 27.336 11.912 13.7866667"></polygon>
+        <filter x="-47.9%" y="-37.5%" width="230.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="0.625" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="2" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-29.2%" y="-14.3%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-8" points="23.912 7.01333333 12.0586667 13.7866667 12.0586667 27.336 23.912 20.5626667"></polygon>
+        <filter x="-72.8%" y="-22.8%" width="245.5%" height="184.9%" filterUnits="objectBoundingBox" id="filter-9">
+            <feMorphology radius="0.625" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-10" points="50.4112318 0 100.822464 28.75 100.822464 86.25 50.4112318 115 2.57571742e-14 86.25 -6.21724894e-15 28.75"></polygon>
+        <filter x="-8.9%" y="-4.3%" width="117.9%" height="115.7%" filterUnits="objectBoundingBox" id="filter-11">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Logo-experiments" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo-and-explorations-v2" transform="translate(-272.000000, -215.000000)">
+            <g id="Big-logo" transform="translate(277.000000, 217.000000)">
+                <g id="Logo" fill-rule="nonzero">
+                    <g id="Logo-inner" transform="translate(20.000000, 24.000000)">
+                        <g id="Polygon">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use stroke="#B1D4E5" stroke-width="1" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Cube-element" filter="url(#filter-3)" transform="translate(17.500000, 0.000000)" fill="#123962" stroke="#B1D4E5" stroke-width="1.25">
+                            <polygon id="Shape" points="12.0586667 0.154666667 0.266666667 6.96266667 12.0586667 13.7706667 23.8506667 6.96266667"></polygon>
+                            <polygon id="Shape" points="0.178666667 7.01333333 0.178666667 20.5626667 11.912 27.336 11.912 13.7866667"></polygon>
+                            <polygon id="Shape" points="23.912 7.01333333 12.0586667 13.7866667 12.0586667 27.336 23.912 20.5626667"></polygon>
+                        </g>
+                        <g id="Cube-element" filter="url(#filter-4)" transform="translate(36.000000, 31.000000)">
+                            <polygon id="Shape" stroke="#B1D4E5" stroke-width="1.25" fill="#123962" points="12.0586667 0.154666667 0.266666667 6.96266667 12.0586667 13.7706667 23.8506667 6.96266667"></polygon>
+                            <g id="Shape">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                <use stroke="#B1D4E5" stroke-width="1.25" fill="#123962" xlink:href="#path-5"></use>
+                            </g>
+                            <polygon id="Shape" stroke="#B1D4E5" stroke-width="1.25" fill="#123962" points="23.912 7.01333333 12.0586667 13.7866667 12.0586667 27.336 23.912 20.5626667"></polygon>
+                        </g>
+                        <g id="Cube-element" filter="url(#filter-7)" transform="translate(0.000000, 31.000000)">
+                            <polygon id="Shape" stroke="#B1D4E5" stroke-width="1.25" fill="#123962" points="12.0586667 0.154666667 0.266666667 6.96266667 12.0586667 13.7706667 23.8506667 6.96266667"></polygon>
+                            <polygon id="Shape" stroke="#B1D4E5" stroke-width="1.25" fill="#123962" points="0.178666667 7.01333333 0.178666667 20.5626667 11.912 27.336 11.912 13.7866667"></polygon>
+                            <g id="Shape">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                                <use stroke="#B1D4E5" stroke-width="1.25" fill="#123962" xlink:href="#path-8"></use>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Polygon">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                        <use stroke="#B1D4E5" stroke-width="2" xlink:href="#path-10"></use>
+                    </g>
+                </g>
+                <text id="Exalton" font-family="FreightSansProSemibold-Regular, FreightSans Pro" font-size="24" font-weight="500" fill="#B1D4E5">
+                    <tspan x="117.496" y="63">Exalton</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
