@@ -16,9 +16,9 @@
   <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-  <script src="assets/js/wow.min.js"></script>
+  <script src="Focus/assets/js/wow.min.js"></script>
 
-  <script src="assets/js/skm.js"></script>
+  <script src="Focus/assets/js/skm.js"></script>
 </head>
 <body>
 
@@ -29,22 +29,23 @@
 
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <a class="real-div navbar-brand navbar-link" href="index.html">EXALTON</a>
       </div>
 
       <div class="collapse navbar-collapse" id="custom-collapse">
         <ul class="nav navbar-nav navbar-right navbar-logo" style=" padding-left: 20px !important; display: inline-block !important; float: none !important; vertical-align: top !important;">
+          <li><a class="real-div navbar-link" onclick="window.location.href= '#about'" style="font-weight: lighter;">About</a></li>
           <li><a class="real-div navbar-link" onclick="window.location.href= '#team'" style="font-weight: lighter;">Our Team</a></li>
-          <li><a class="real-div navbar-link" onclick="window.location.href= '#team'"  style="font-weight: lighter;">Contact</a></li>
+<!--          <li><a class="real-div navbar-link" onclick="window.location.href= '#contact-us'"  style="font-weight: lighter;">Contact</a></li>-->
         </ul>
         <ul class="nav navbar-nav navbar-right real-div change">
           <li class="get-a-quote" style="margin-top: 5px;">
-            <button onclick="window.open('https://goo.gl/forms/WR6GDCFraisN6G1I3', '_blank');">Careers</button>
+            <button onclick="window.open('https://goo.gl/forms/Z9HKpXa3dzel9Dm03', '_blank');">Careers</button>
           </li>
         </ul>
       </div>
@@ -54,7 +55,7 @@
 
 
 
-<!-- Hero section and content -->
+  <!-- Hero section and content -->
   <div id="home" class="wow animated fadeIn" data-wow-duration="1.5s">
     <div class="hero-content row">
       <div class="col-md-5  hero-image">
@@ -62,22 +63,21 @@
       </div>
       <div class="col-md-5 col-md-offset-1">
         <div class="hero-text">
-      <h1 class="hero-header">Seamless collaboration - for anyone, anywhere</h1>
-      <p class="hero-description">Exalton’s platform reinvents the way businesses collaborate with each other by enabling truly distributed B2B file sharing, management, and governance. Using distributed ledger technology, we can imagine a future where the opportunities of collaboration are no longer limited by security, access, or visibility.</p>
-      <div class="button-align get-a-quote">
-        <button class="page-scroll" onclick="window.location.href= '#team'">Our Team</button>
-      </div>
-      <div class="button-align get-a-quote">
-        <button class="page-scroll" onclick="window.location.href= '#reputation'">Learn More</button>
+          <h1 class="hero-header">Seamless collaboration - for anyone, anywhere</h1>
+          <p class="hero-description">Exalton’s platform reinvents the way businesses collaborate with each other by enabling truly distributed B2B file sharing, management, and governance. Using distributed ledger technology, we can imagine a future where the opportunities of collaboration are no longer limited by security, access, or visibility.</p>
+          <div class="button-align get-a-quote">
+            <button class="link" onclick="window.location.href= '#team'">Our Team</button>
+          </div>
+          <div class="button-align get-a-quote">
+            <button class="page-scroll" onclick="window.location.href= '#about'">Learn More</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-  </div>
-  </div>
-
-<!-- Reputation section and content-->
-  <div class="repo-section wow animated fadeIn" id="reputation" data-wow-duration="1.5s">
+  <!-- Reputation section and content-->
+  <div class="repo-section wow animated fadeIn" id="about" data-wow-duration="1.5s">
     <div class="repo-content row">
       <div class="col-md-6 col-md-offset-3">
         <div class="repo-text">
@@ -88,7 +88,7 @@
 
           <div class="button-repo-align get-a-quote">
             <button class="page-scroll" onclick="window.location.href= '#team'">Our Team</button>
-            <button class="page-scroll" onclick="window.location='https://goo.gl/forms/7Tds7V4n79DtUD703';">Careers</button>
+            <button class="page-scroll" onclick="window.open('https://goo.gl/forms/Z9HKpXa3dzel9Dm03', '_blank');">Careers</button>
 
           </div>
         </div>
@@ -97,65 +97,63 @@
   </div>
 
 
-  <div class="col-md-6 col-md-offset-3 repo-section" style="padding-top: 100px;">
+  <div class="col-md-6 col-md-offset-3" style="padding-top: 100px;">
     <div class="repo-text">
       <h1 class="repo-header">Our Team</h1>
     </div>
   </div>
-
   <div class="repo-inner wow animated fadeIn" id="team" data-wow-duration="1.5s">
     <div class="repo-content row">
-      <div class="col-md-6">
+      <div class="col-md-6 col-md-offset-3">
         <div class="repo-text">
           <div class="team-text">
-          <div class="service-img-container">
-            <img class="u-max-full-width" src="Focus/Images/erik-profile.jpg"/>
-        </div>
+            <div class="service-img-container">
+              <img class="u-max-full-width" src="Focus/Images/erik-profile.jpg"/>
+            </div>
 
-                        <p class="repo-name" style="padding-top: 90px;">Erik Hanzlick</p>
-                        <p class="repo-blurb">Business Development</p>
-                        <p class="repo-description" style="padding-top: 20px;">Erik is an aspiring entrepreneur looking to reshape the way people and businesses work together.
-
+            <p class="repo-name" style="padding-top: 90px;">Erik Hanzlick</p>
+            <p class="repo-blurb">Business Development</p>
 
 
-        </p>
+            <p class="repo-description" style="padding-top: 20px;">
+                Erik is an aspiring entrepreneur looking to reshape the way people and businesses work together.
+            </p>
 
-        <p class="repo-description" style="padding-top: 20px;">He has experiences in IT project management and product management at Qualcomm and IBM, respectively, where he's built a track record for effectively applying data-driven research, design thinking, and agile project management.
-        </p>
-          <p class="repo-description" style="padding-top: 20px;">With Exalton, he hopes to revolutionize the way businesses cooperate with one another by transforming the way people engage with their content.
-        </p>
+            <p class="repo-description">
+                He has experiences in IT project management and product management at Qualcomm and IBM, respectively, where he's built a track record for effectively applying data-driven research, design thinking, and agile project management.
+            </p>
+            <p class="repo-description">
+                With Exalton, he hopes to revolutionize the way businesses cooperate with one another by transforming the way people engage with their content.
+            </p>
 
-      </div>
-
-
-
-        </div>
-      </div>
-      <div class="col-md-6">
+            </div>
+          </div>        
+        </div>      
+      <div class="col-md-offset-4 col-md-4">
         <div class="repo-text">
           <div class="team-text">
-          <div class="service-img-container">
-            <img class="u-max-full-width" src="Focus/Images/abi-profile.jpg"/>
-        </div>
+            <div class="service-img-container">
+              <img class="u-max-full-width" src="Focus/Images/abi-profile.jpg"/>
+            </div>
 
-                        <p class="repo-name" style="padding-top: 90px;">Abi Sarveppali</p>
-                        <p class="repo-blurb">Technical engineer</p>
-
-
-        <p class="repo-description" style="padding-top: 20px;">Abi is passionate about developing tools to simplify and facilitate daily interactions (human-human, human-computer).
-
-        </p>
-
-        <p class="repo-description" style="padding-top: 20px;">Abi has gained experience developing data normalization and analysis workflows for UCSD's Dorrestein Lab. He has also gained insights to the computational power of blockchain networks from his recent internship experience at Aspera, an IBM Company..
+            <p class="repo-name" style="padding-top: 90px;">Abi(nesh) Sarvepalli</p>
+            <p class="repo-blurb">Technical Engineer</p>
 
 
-        </p>
-          <p class="repo-description" style="padding-top: 20px;">At Exalton, Abi is commited to using his current passions to redefine how businesses currently operate in collaborative settings.
+            <p class="repo-description" style="padding-top: 20px;">Abi is passionate about developing tools to simplify and facilitate daily interactions (human-human, human-computer).
+
+            </p>
+
+            <p class="repo-description">Abi has gained experience developing data normalization and analysis workflows for UCSD's Dorrestein Lab. He has also gained insights to the computational power of blockchain networks from his recent internship experience at Aspera, an IBM Company.
 
 
-        </p>
+            </p>
+            <p class="repo-description">At Exalton, Abi is commited to using his current passions to redefine how businesses currently operate in collaborative settings.
 
-      </div>
+
+            </p>
+
+          </div>
 
 
 
@@ -166,12 +164,13 @@
 
 
 
+<!--
   <div class="button-repo-align get-a-quote" style="padding-top: 60px; padding-bottom: 30px;">
-    <button class="page-scroll" onclick="window.location.href= '#contact-us'">Contact</button>
-
+    <button class="page-scroll" onclick="window.location.href= '#contact-us'">Let's Get In Touch!</button>
   </div>
+-->
 
-<!--Contact and booking section - not needed -->
+  <!--Contact and booking section - not needed -->
   <section id="contact-us" style=" background-color: #f4fafd;" class="wow animated fadeIn" data-wow-duration="1.5s">
 
   </section>
